@@ -1,0 +1,442 @@
+.uriage-head {
+  padding-bottom: 32px;
+}
+@media screen and (max-width: 1279.98px) {
+  .uriage-head {
+    padding-bottom: 24px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .uriage-head {
+    padding-bottom: 12px;
+  }
+}
+.uriage-head__line {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+}
+@media screen and (max-width: 1279.98px) {
+  .uriage-head__line {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .uriage-head__line {
+    align-items: center;
+  }
+}
+.uriage-head__title {
+  font-size: 30px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+@media screen and (max-width: 767.98px) {
+  .uriage-head__title {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+}
+.uriage-head__amount {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #898989;
+  margin-bottom: 4px;
+}
+@media screen and (max-width: 767.98px) {
+  .uriage-head__amount {
+    font-size: 14px;
+    line-height: 1.3334;
+    margin-bottom: 0;
+  }
+}
+
+.uriage__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+@media screen and (max-width: 1279.98px) {
+  .uriage__inner {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .uriage__inner {
+    gap: 12px;
+  }
+}
+.uriage__bnr {
+  display: block;
+  width: 100%;
+}
+.uriage__bnr img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+@media screen and (max-width: 1279.98px) {
+  .uriage__bnr img {
+    border-radius: 8px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .uriage__bnr img {
+    border-radius: 6px;
+  }
+}
+.uriage__info {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+@media screen and (max-width: 1279.98px) {
+  .uriage__info {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .uriage__info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+}
+.uriage__logo {
+  display: block;
+  width: 210px;
+  flex-shrink: 0;
+}
+@media screen and (max-width: 1279.98px) {
+  .uriage__logo {
+    width: 122px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .uriage__logo {
+    width: 86px;
+  }
+}
+.uriage__desc {
+  font-size: 18px;
+  line-height: 1.25;
+}
+@media screen and (max-width: 1279.98px) {
+  .uriage__desc {
+    font-size: 12px;
+    line-height: 1.1;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .uriage__desc {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}
+.uriage__img {
+  display: block;
+  width: 100%;
+}
+.uriage__img img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+@media screen and (max-width: 1279.98px) {
+  .uriage__img img {
+    border-radius: 8px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .uriage__img img {
+    border-radius: 6px;
+  }
+}
+
+.uriage-products__title {
+  font-size: 44px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 44px;
+}
+@media screen and (max-width: 1279.98px) {
+  .uriage-products__title {
+    margin-bottom: 24px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .uriage-products__title {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+}
+.uriage-products__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+@media screen and (max-width: 1279.98px) {
+  .uriage-products__list {
+    gap: 14px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .uriage-products__list {
+    grid-template-columns: 100%;
+    gap: 8px;
+  }
+}
+.uriage-products__item {
+  position: relative;
+  width: 100%;
+  min-height: 348px;
+  padding: 48px 32px 32px 32px;
+  border-radius: 12px;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #f8f6f7;
+}
+@media screen and (max-width: 1279.98px) {
+  .uriage-products__item {
+    padding: 24px 16px;
+    border-radius: 6px;
+    min-height: 176px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .uriage-products__item {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    min-height: 82px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .uriage-products__item-head {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+.uriage-products__item-caption {
+  max-width: 300px;
+  font-size: 28px;
+  line-height: 1.3334;
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 1279.98px) {
+  .uriage-products__item-caption {
+    max-width: 140px;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .uriage-products__item-caption {
+    max-width: 240px;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+}
+.uriage-products__item-title {
+  max-width: 390px;
+  font-size: 36px;
+  line-height: 1.3;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+@media screen and (max-width: 1279.98px) {
+  .uriage-products__item-title {
+    max-width: 170px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .uriage-products__item-title {
+    max-width: 200px;
+    font-size: 14px;
+  }
+}
+.uriage-products__item-img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+@media screen and (max-width: 767.98px) {
+  .uriage-products__item-img {
+    width: 165px;
+    height: 82px;
+    inset: 0 0 0 auto;
+  }
+}
+.uriage-products__item-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center right;
+     object-position: center right;
+}
+
+.uriage-categories__head {
+  display: flex;
+  align-items: center;
+  gap: 88px;
+  margin-bottom: 44px;
+}
+@media screen and (max-width: 1279.98px) {
+  .uriage-categories__head {
+    gap: 44px;
+    margin-bottom: 24px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .uriage-categories__head {
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+}
+.uriage-categories__head::before, .uriage-categories__head::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #d9d9d9;
+}
+.uriage-categories__title {
+  font-size: 44px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+@media screen and (max-width: 767.98px) {
+  .uriage-categories__title {
+    font-size: 16px;
+  }
+}
+.uriage-categories__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+@media screen and (max-width: 1279.98px) {
+  .uriage-categories__list {
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .uriage-categories__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.uriage-categories__item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+  min-height: 346px;
+  padding: 24px 10px;
+  border-radius: 10px;
+  text-align: right;
+  overflow: hidden;
+  z-index: 1;
+}
+@media screen and (max-width: 1279.98px) {
+  .uriage-categories__item {
+    min-height: 174px;
+    border-radius: 8px;
+    padding: 12px 8px;
+  }
+}
+.uriage-categories__item--center {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.uriage-categories__item--sm .uriage-categories__item-title {
+  font-size: 24px;
+}
+@media screen and (max-width: 1483.98px) {
+  .uriage-categories__item--sm .uriage-categories__item-title {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1279.98px) {
+  .uriage-categories__item--sm .uriage-categories__item-title {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .uriage-categories__item--sm .uriage-categories__item-title {
+    font-size: 10px;
+  }
+}
+.uriage-categories__item-img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.uriage-categories__item-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center right;
+     object-position: center right;
+}
+.uriage-categories__item-title {
+  font-size: 28px;
+  line-height: 1.25;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 1px 1px 11.9px rgba(49, 76, 123, 0.84);
+}
+@media screen and (max-width: 1483.98px) {
+  .uriage-categories__item-title {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 1279.98px) {
+  .uriage-categories__item-title {
+    font-size: 16px;
+  }
+}
+
+.catalog__head {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+@media screen and (max-width: 1483.98px) {
+  .catalog__head {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+}
+@media screen and (max-width: 1279.98px) {
+  .catalog__head {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+}
+.catalog__preview {
+  display: block;
+  width: 100%;
+}
+.catalog__preview img {
+  display: block;
+  width: 100%;
+}/*# sourceMappingURL=uriage.css.map */
